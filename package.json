@@ -1,0 +1,17 @@
+{
+  "name": "chromemacro",
+  "version": "1.0.0",
+  "description": "allows to either open chrome or new tab if already open",
+  "main": "ChromeMacro.js",
+  "scripts": {
+    "test": "node ChromeMacro.js"
+  },
+  "bin": {
+    "execute": "ChromeMacro.js"
+  },
+  "author": "Braedon Bellamy",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^8.4.0"
+  }
+}
